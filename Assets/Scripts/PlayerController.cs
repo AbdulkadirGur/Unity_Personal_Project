@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Player has a collided with enemy ");
         }
     }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("PowerUp"))
