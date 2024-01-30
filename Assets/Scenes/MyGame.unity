@@ -570,6 +570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1345599569}
+  - component: {fileID: 1345599570}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -592,6 +593,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1345599570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345599568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4cfb5421956ee4a86fb4a9d0b81de3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 1172402929241663706, guid: 4a40d57a8c970384f84a377f853c8852, type: 3}
+  - {fileID: 540536034839830792, guid: 79ad64f3ef1e24247a3d7e090c8fc556, type: 3}
+  - {fileID: 8662327857624888586, guid: b9fe6fb97b399e544ac5d6a2debfbb42, type: 3}
+  powerup: {fileID: 3177304723627654097, guid: f686492535c5165449104357517456d0, type: 3}
 --- !u!1 &1444780168
 GameObject:
   m_ObjectHideFlags: 0
